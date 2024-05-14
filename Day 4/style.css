@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+
+.container
+{
+    
+    padding: 10px 70px;
+}
+.hero_profile{
+    text-align: center;
+    padding-top: 160px;
+}
+.hero_profile img{
+    width: 160px;
+    border-radius: 50%;
+}
+.hero_profile .user{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero_profile .tagline{
+    color: aliceblue;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero_profile .contact a{
+    color: white ;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 5px;
+}
+
+.hero_profile .contact a:hover{
+    background-color: white;
+    color: black;
+}
+
+.whyme .whyme_header,.skills .skills_heading,.projects .project_heading{
+    margin-top: 70px;
+    color:cyan;
+    font-size: 35px;
+    text-align: center;
+}
+.whyme .first{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+.feature_text{
+    color:white;
+}
+.whyme .first .feature_text p{
+    padding-left: 100px;
+}
+
+.feature_pic img{
+    width:400px
+}
+
+.whyme .second{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+
+.whyme .second .feature_text p{
+    padding-right: 100px;
+}
+
+.skills .skill_grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.skills .skill1_heading{
+    text-align: center;
+    color: aqua;
+}
+
+.skills .skills_text li{
+    
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.skills .skills_text li:hover{
+    
+    color: grey;
+    
+}
+
+.skills ul{
+    padding-left: 0 !important;
+}
+
+.projects .project_flex{
+    display: flex;
+    column-gap: 10px;
+}
+
+.projects .card .card-top img{
+    width:220px;
+    height:170px
+}
+
+.card{
+ padding: 20px 30px;
+ border: solid white 1px ;
+}
+.card .card_heading{
+    color:cyan;
+    text-align: center;
+    font-size: 20px;
+}
+.card .card-text{
+    padding-top: 10px;
+    color:white;
+    text-align: justify;
+}
+
+footer p{
+    color: cyan;
+    text-align: center;
+}
+
